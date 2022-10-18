@@ -1,0 +1,15 @@
+main{
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px;
+}
+
+td{
+    width: 150px;
+}
+
+img{
+    display: inline;
+    margin-right: 10px;
+}
+
