@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicio</title>
+    <link rel="stylesheet" href="Pantalla2.css" type="text/css">
+</head>
+<body>
+
+<header>
+
+    <table>
+        <ul>
+
+            <li><img src="OIP.jpg" class="logo"></li>
+            <li> <a href="#">Adoptar </a></li>
+            <li> <a href="#">Blog </a></li>
+            <li> <a href="#">Voluntariado </a></li>
+            <li> <a href="#">Contacto</a></li>
+
+        </ul>
+    </table>
+
+</header>
+
+<main>
+
+  <section>
+
+      <table>
+          <tr>
+              <td>Tipo de animal</td>
+              <td>Localizacion</td>
+              <td rowspan="2"><button type="submit">Submit</button></td>
+          </tr>
+          <tr>
+              <td>
+                  <form>
+                      <label for="typesOfAnimals"></label>
+                      <select name="typesOfAnimals" id="typesOfAnimals">
+                          <option value="0" selected disabled></option>
+                          <option value="dog">Perro</option>
+                          <option value="cat">Gato</option>
+                          <option value="bird">Pájaro</option>
+                          <option value="hamster">Hamster</option>
+                      </select>
+                  </form>
+              </td>
+
+              <td>
+                  <form>
+                      <label for="location"></label>
+                      <select name="location" id="location">
+                          <option value="0" selected disabled></option>
+                          <optgroup label="Andalucia"></optgroup>
+                          <option value="malaga">Malaga</option>
+                          <option value="sevilla">Sevilla</option>
+                          <option value="cadiz">Cadiz</option>
+                          <option value="granada">Granada</option>
+                          <optgroup label="Madrid"></optgroup>
+                          <option value="madrid">Madrid</option>
+                      </select>
+                  </form>
+              </td>
+              <td></td>
+          </tr>
+      </table>
+
+  </section>
+
+    <h5>Animales cerca de ti</h5>
+
+    <div class="animalCard">
+            <img src="OIP.jpg">
+        <div class="animalName">
+            <p>Animal name</p>
+            <p>Animal Ubication</p>
+        </div>
+    </div>
+
+    <div class="animalCard">
+        <img src="OIP.jpg">
+        <div class="animalName">
+            <p>Animal name</p>
+            <p>Animal Ubication</p>
+        </div>
+    </div>
+
+    <div class="animalCard">
+        <img src="OIP.jpg">
+        <div class="animalName">
+            <p>Animal name</p>
+            <p>Animal Ubication</p>
+        </div>
+    </div>
+
+
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>
