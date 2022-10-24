@@ -1,15 +1,24 @@
-main{
+table{
     border: 1px solid black;
     width: 500px;
     padding: 20px;
-}
+    float: left;
+    height: 300px;
 
-td{
-    width: 150px;
 }
 
 img{
-    display: inline;
     margin-right: 10px;
+    height: 320px;
+    float: left;
 }
 
+input{
+    float: right;
+}
+
+#peque{
+    height: 100px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
