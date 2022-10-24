@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang=”es”>
+<head>
+    <meta charset=”UTF-8”>
+    <link rel="stylesheet" href="pantalla7.css" type="text/css">    
+    <title>Tabla combinada</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>Tipo de animal</td>
+        <td>Localizacion</td>
+        <td>Raza</td>
+        <td>Edad</td>
+        <td>Sexo</td>
+        <td rowspan="2"><button type="submit">Submit</button></td>
+
+    </tr>
+    <tr>
+        <td>
+            <form>
+            <label for="typesOfAnimals"></label>
+            <select name="typesOfAnimals" id="typesOfAnimals">
+              <option value="0" selected disabled>--Despliega--</option>
+              <option value="dog">Perro</option>
+              <option value="cat">Gato</option>
+              <option value="hamster">Hamster</option>
+            </select>
+          </form>
+        </td>
+
+        <td>
+            <form>
+                <label for="location"></label>
+                <select name="location" id="location">
+                  <option value="0" selected disabled>--Despliega--</option>
+                  <optgroup label="Andalucia"></optgroup>
+                    <option value="malaga">Malaga</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="cadiz">Cadiz</option>
+                    <option value="granada">Granada</option>
+                    <optgroup label="Madrid"></optgroup>
+                    <option value="madrid">Madrid</option>
+                </select>
+              </form>
+        </td>
+
+        <td>
+          <form>
+              <label for="race"></label>
+              <select name="race" id="race">
+                <option value="0" selected disabled>--Despliega--</option>
+                <option value="Bulldogs">Bulldogs</option>
+                <option value="Terriers">Terriers</option>
+                <option value="Pastor_aleman">Pastor aleman</option>
+                <option value="Burnes">Burnes</option>
+                <option value="Chartreux">Chartreux</option>
+              </select>
+            </form>
+      </td>
+
+        <td>
+            <form>
+                <label for="age"></label>
+                <select name="age" id="age">
+                  <option value="0" selected disabled>--Despliega--</option>
+                  <optgroup label="cachorro"></optgroup>
+                    <option value="children">2-12 meses</option>
+                  <optgroup label="Cachorro adolescente"></optgroup>
+                    <option value="joung">12-18 meses</option>
+                  <optgroup label="Adulto">
+                    <option value="adult">18 meses-7 años</option>
+                  <optgroup label="Senior">
+                    <option value="senior">7 años o más</option>
+                </select>
+              </form>
+        </td>
+
+        <td>
+            <form>
+                <label for="sex"></label>
+                <select name="sex" id="sex">
+                  <option value="0" selected disabled>--Despliega--</option>
+                  <option value="M">Hembra</option>
+                  <option value="H">Macho</option>
+                </select>
+              </form>
+        </td>
+        <td></td>
+    </tr>
+</table>
+</body>
