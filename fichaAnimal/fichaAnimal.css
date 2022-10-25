@@ -1,0 +1,18 @@
+.fa-heart {
+    font-size: 25px;
+    color: black;
+}
+
+img {
+    width: 20%;
+    height: 50%;
+}
+
+.animalImage {
+    float: left;
+}
+
+.data {
+    float: left;
+    margin: 20px;
+}
