@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSSRegistro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <h1 class="register-title">Registro</h1>
+    <form class="register" action="result.php" method="post">
+      <div class="register-switch">
+        <input type="radio" name="sex" value="user" id="user" class="register-switch-input" checked>
+        <label for="user" class="register-switch-label">Usuario</label>
+        <input type="radio" name="sex" value="shelter" id="shelter" class="register-switch-input">
+        <label for="shelter" class="register-switch-label">Protectora</label>
+      </div>
+      <input type="name" class="register-input" placeholder="Nombre">
+      <input type="email" class="register-input" placeholder="Email">
+      <input type="password" class="register-input" placeholder="Contraseña">
+      <input type="again_password" class="register-input" placeholder="Repetir Contraseña">
+      <input type="submit" value="Registrarse" class="register-button">
+    </form>
+</body>
+</html>
