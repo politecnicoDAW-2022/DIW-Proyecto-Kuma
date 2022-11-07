@@ -23,13 +23,17 @@ li a {
     text-decoration: none;
 }
 
-.table {
-    display: flex;
+.target {
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 0 0 70px 70px;
 }
 
-.animalCard{
-    display:flex;
-    flex-direction: column;
-    float: left;
-    width:420px;
+.animal-name {
+    height: auto;
 }
+
+.animal-name span{
+    font-size: 20px;
+}
+
