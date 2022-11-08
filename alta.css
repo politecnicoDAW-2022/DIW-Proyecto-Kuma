@@ -1,0 +1,27 @@
+.discharge{
+    border: 2px solid #000;
+    padding: 2px;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.target {
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 0 0 70px 70px;
+}
+
+.animal-name {
+    height: auto;
+}
+
+.animal-name span{
+    font-size: 20px;
+}
+
+ .filter-option {
+    margin-left: 80px;
+    height: 100%;
+    width: 100%;
+} 

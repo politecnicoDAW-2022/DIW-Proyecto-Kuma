@@ -2,78 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Página Inicio</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alta.css" type="text/css" />
     <script
       src="https://kit.fontawesome.com/3c9e970b34.js"
       crossorigin="anonymous"
     ></script>
+    <title>Dar alta</title>
 </head>
 <body>
-
-<header>
-
-    <table>
-        <ul>
-
-            <li><img src="OIP.jpg" class="logo"></li>
-            <li> <a href="#">Adoptar </a></li>
-            <li> <a href="#">Blog </a></li>
-            <li> <a href="#">Voluntariado </a></li>
-            <li> <a href="#">Contacto</a></li>
-
-        </ul>
-    </table>
-
-</header>
-
-<main>
-
-  <section>
-
-      <table>
-          <tr>
-              <td>Tipo de animal</td>
-              <td>Localizacion</td>
-              <td rowspan="2"><button type="submit">Submit</button></td>
-          </tr>
-          <tr>
-              <td>
-                  <form>
-                      <label for="typesOfAnimals"></label>
-                      <select name="typesOfAnimals" id="typesOfAnimals">
-                          <option value="0" selected disabled></option>
-                          <option value="dog">Perro</option>
-                          <option value="cat">Gato</option>
-                          <option value="bird">Pájaro</option>
-                          <option value="hamster">Hamster</option>
-                      </select>
-                  </form>
-              </td>
-
-              <td>
-                  <form>
-                      <label for="location"></label>
-                      <select name="location" id="location">
-                          <option value="0" selected disabled></option>
-                          <optgroup label="Andalucia"></optgroup>
-                          <option value="malaga">Malaga</option>
-                          <option value="sevilla">Sevilla</option>
-                          <option value="cadiz">Cadiz</option>
-                          <option value="granada">Granada</option>
-                          <optgroup label="Madrid"></optgroup>
-                          <option value="madrid">Madrid</option>
-                      </select>
-                  </form>
-              </td>
-              <td></td>
-          </tr>
-      </table>
-
-  </section>
-
-    <h5>Animales cerca de ti</h5>
-
+    <h2>Animales dados de alta</h2>
     <table>
         <tr>
             <td>
@@ -140,14 +79,40 @@
                     </table>
                 </div>
             </td>
+            <td>
+                <div class="filter-option">
+                    <div class="discharge">Dar de alta</div><br>
+                    <form action="#" method="post">
+                        <label for="order">Ordenar por:</label><br>
+                        <select name="order" id="order">
+                            <option value="Ascendente">Ascendente</option>
+                            <option value="Descendente">Descendente</option>
+                            <option value="Alfabetico">Alfabético</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="filter">Filtro:</label><br>
+                        <select name="filter" id="filter">
+                            <option value="Edad">Edad</option>
+                            <option value="Procedencia">Procedencia</option>
+                            <option value="Something">What ever</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="animal-type">Tipo de animal:</label><br>
+                        <select name="animal-type" id="animal-type">
+                            <option value="Gato">Gato</option>
+                            <option value="Perro">Perro</option>
+                            <option value="Erizo">Erizo</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="name">Nombre:</label><br>
+                        <input type="text" id="name" name="name"/>
+                    </form>
+                </div>
+            </td>
         </tr>
     </table>
-
-</main>
-
-<footer>
-
-</footer>
-
 </body>
 </html>
